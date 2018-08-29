@@ -1,0 +1,26 @@
+{
+  "name": "web-gateway",
+  "version": "1.0.0",
+  "description": "bff",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ASF 2.0",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "gulp": "^3.9.1",
+    "gulp-mocha": "^6.0.0",
+    "gulp-nodemon": "^2.2.1",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.5",
+    "should": "^13.2.3",
+    "sinon": "^6.1.5"
+  },
+  "devDependencies": {
+    "gulp-env": "^0.4.0",
+    "supertest": "^3.1.0"
+  }
+}
