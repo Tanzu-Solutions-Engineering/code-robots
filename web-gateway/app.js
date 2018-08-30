@@ -15,8 +15,8 @@ accountRouter.route('/account/:id').
     get(function(req,res) {
 
     var banking_url = {url:'http://localhost:8080/account/' + req.params.id};
-    var investments_url = {url:'http://localhost:8080/account/' + req.params.id};
-    var lines_of_credit_url = {url:'http://localhost:8080/account/' + req.params.id};
+    var investments_url = {url:'http://localhost:8081/account/' + req.params.id};
+    var lines_of_credit_url = {url:'http://localhost:8082/account/' + req.params.id};
     var accounts = new Object();
 
     async.parallel([

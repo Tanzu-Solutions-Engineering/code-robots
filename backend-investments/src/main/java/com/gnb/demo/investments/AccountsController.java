@@ -1,4 +1,4 @@
-package com.gnb.demo.backendbanking;
+package com.gnb.demo.investments;
 
 import java.math.BigDecimal;
 
@@ -13,9 +13,9 @@ public class AccountsController {
     public Account accountDetails(@PathVariable String id) {
         Account acct = new Account();
         acct.setId(id);
-        acct.setName("Checking");
-        acct.setBalance(new BigDecimal(100.00));
-        acct.setDescription("My GNB checking account");
+        acct.setName("Investments");
+        acct.setBalance(new BigDecimal(1000.00));
+        acct.setDescription("My GNB investment accounts balance");
         return acct;
     }
 }

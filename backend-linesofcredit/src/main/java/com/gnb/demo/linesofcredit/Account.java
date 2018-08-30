@@ -1,4 +1,4 @@
-package com.gnb.demo.backendbanking;
+package com.gnb.demo.linesofcredit;
 
 import lombok.Data;
 
