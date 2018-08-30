@@ -14,27 +14,31 @@ accountRouter = express.Router();
 accountRouter.route('/account/:id').
     get(function(req,res) {
 
-    var banking_url = {url:'http://localhost:8080/account/' + req.params.id};
-    var investments_url = {url:'http://localhost:8081/account/' + req.params.id};
-    var lines_of_credit_url = {url:'http://localhost:8082/account/' + req.params.id};
+    var banking_url = (process.env.backend_banking_url || 'http://localhost:8080') + '/account/' + req.params.id;
+    var investments_url = (process.env.backend_investments_url || 'http://localhost:8081') + '/account/' + req.params.id;
+    var linesofcredit_url = (process.env.backend_linesofcredit_url ||'http://localhost:8082') + '/account/' + req.params.id;
     var accounts = new Object();
+
+    console.log("banking_url: " + banking_url);
+    console.log("investments_url: " + investments_url);
+    console.log("linesofcredit_url: " + linesofcredit_url);
 
     async.parallel([
         function(next) {
             request.get(banking_url, function(error, response, body) {
-                accounts.checking = body;
+                accounts.checking = JSON.parse(body);
                 next();
             });
         },
         function(next) {
             request.get(investments_url, function(error, response, body) {
-                accounts.investments = body;
+                accounts.investments = JSON.parse(body);
                 next();
             });
         },
         function(next) {
-            request.get(lines_of_credit_url, function(error, response, body) {
-                accounts.lines_of_credit = body
+            request.get(linesofcredit_url, function(error, response, body) {
+                accounts.lines_of_credit = JSON.parse(body);
                 next();
             });
         }], function(err) {

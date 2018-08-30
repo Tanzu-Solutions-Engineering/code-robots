@@ -119,6 +119,7 @@
 	</dependencyManagement>
 
 	<build>
+		<finalName>backend-linesofcredit</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>

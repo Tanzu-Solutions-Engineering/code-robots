@@ -8,12 +8,10 @@ describe('Get Acccount Integration Test', function(){
         agent.get('/api/account/123')
             .expect(200)
             .end(function(err, results){
-                var checking = JSON.parse(results.body.checking);
-                var investments = JSON.parse(results.body.investments);
-                var lines_of_credit = JSON.parse(results.body.lines_of_credit);
-                checking.balance.should.equal(100);
-                investments.balance.should.equal(1000);
-                lines_of_credit.balance.should.equal(-100000);
+
+                results.body.checking.balance.should.equal(100);
+                results.body.investments.balance.should.equal(1000);
+                results.body.lines_of_credit.balance.should.equal(-100000);
 
                 done();
             })

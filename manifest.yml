@@ -1,0 +1,23 @@
+---
+applications:
+#- name: gnb-backend-banking
+#  path: backend-banking/target/backend-banking.jar
+#  instances: 1
+#  memory: 1G
+#- name: gnb-backend-investments
+#  path: backend-investments/target/backend-investments.jar
+#  instances: 1
+#  memory: 1G
+#- name: gnb-backend-linesofcredit
+#  path: backend-linesofcredit/target/backend-linesofcredit.jar
+#  instances: 1
+#  memory: 1G
+- name: gnb-web-gateway
+  path: ./web-gateway
+  command: node app.js
+  instances: 1
+  memory: 64M
+  env:
+    backend_banking_url: http://gnb-backend-banking.cfapps.io
+    backend_investments_url: http://gnb-backend-investments.cfapps.io
+    backend_linesofcredit_url: http://gnb-backend-linesofcredit.cfapps.io
