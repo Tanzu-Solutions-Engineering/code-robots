@@ -9,3 +9,5 @@ cd ../backend-linesofcredit
 ./mvnw clean package
 
 cd ..
+
+cf push

@@ -2,12 +2,14 @@ var express = require('express')
     request = require('request-promise-native')
     bodyParser = require('body-parser')
     async = require('async');
+    cors = require('cors');
 
 var app = express()
-var port = process.env.PORT || 3000;
+var port = process.env.PORT || 3001;
 
 app.use(bodyParser.urlencoded({extended:true}));
 app.use(bodyParser.json());
+app.use(cors());
 
 accountRouter = express.Router();
 
