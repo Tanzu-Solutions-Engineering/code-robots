@@ -14,7 +14,7 @@ public class AccountsController {
         Account acct = new Account();
         acct.setId(id);
         acct.setName("Lines of Credit");
-        acct.setBalance(new BigDecimal(-100000.00));
+        acct.setBalance(new BigDecimal(-100000.45));
         acct.setDescription("My GNB Credit Card Balance");
         return acct;
     }

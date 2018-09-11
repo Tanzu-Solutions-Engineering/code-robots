@@ -2,14 +2,21 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 300px;
+.Snyk-logo {
+
+  height: 200px;
+}
+
+.PCF-logo {
+
+  height: 50px;
 }
 
 .App-header {
 
-  height: 350px;
-  padding: 20px;
+  height: 300px;
+  padding: 30px;
+  font-family: 'Audiowide', cursive;
 }
 
 .App-title {
@@ -18,6 +25,29 @@
 
 .App-intro {
   font-size: large;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.pretty-pic {
+  width: 100%;
+
+  max-width: 800px;
+  padding: 15px;
+  margin: auto;
 }
 
 @keyframes App-logo-spin {
