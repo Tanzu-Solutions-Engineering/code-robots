@@ -4,6 +4,10 @@ applications:
 #  path: backend-banking/target/backend-banking.jar
 #  instances: 1
 #  memory: 1G
+#- name: gnb-backend-banking-legacy
+#  path: backend-banking-legacy/target/backend-banking-legacy.war
+#  instances: 1
+#  memory: 1G
 #- name: gnb-backend-investments
 #  path: backend-investments/target/backend-investments.jar
 #  instances: 1
@@ -12,12 +16,19 @@ applications:
 #  path: backend-linesofcredit/target/backend-linesofcredit.jar
 #  instances: 1
 #  memory: 1G
-- name: gnb-web-gateway
-  path: ./web-gateway
-  command: node app.js
+#- name: gnb-web-gateway
+#  path: ./web-gateway
+#  command: node app.js
+#  instances: 1
+#  memory: 64M
+#  env:
+#    backend_banking_url: http://gnb-backend-banking.cfapps.io
+#    backend_banking_legacy_url: http://gnb-backend-banking-legacy.cfapps.io
+#    backend_investments_url: http://gnb-backend-investments.cfapps.io
+#    backend_linesofcredit_url: http://gnb-backend-linesofcredit.cfapps.io
+- name: gnb-web-gui
+  path: ./web-gui/build
   instances: 1
   memory: 64M
   env:
-    backend_banking_url: http://gnb-backend-banking.cfapps.io
-    backend_investments_url: http://gnb-backend-investments.cfapps.io
-    backend_linesofcredit_url: http://gnb-backend-linesofcredit.cfapps.io
+    FAKE_BANK_BFF_URL: http://gnb-web-gateway.cfapps.io

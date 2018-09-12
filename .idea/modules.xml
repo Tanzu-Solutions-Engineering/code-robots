@@ -3,10 +3,11 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/backend-banking/backend-banking.iml" filepath="$PROJECT_DIR$/backend-banking/backend-banking.iml" />
+      <module fileurl="file://$PROJECT_DIR$/backend-banking-legacy/backend-banking-legacy.iml" filepath="$PROJECT_DIR$/backend-banking-legacy/backend-banking-legacy.iml" />
       <module fileurl="file://$PROJECT_DIR$/backend-investments/backend-investments.iml" filepath="$PROJECT_DIR$/backend-investments/backend-investments.iml" />
       <module fileurl="file://$PROJECT_DIR$/backend-linesofcredit/backend-linesofcredit.iml" filepath="$PROJECT_DIR$/backend-linesofcredit/backend-linesofcredit.iml" />
-      <module fileurl="file://$PROJECT_DIR$/react-gui/react-gui.iml" filepath="$PROJECT_DIR$/react-gui/react-gui.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/web-gateway.iml" filepath="$PROJECT_DIR$/.idea/web-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web-gui/web-gui.iml" filepath="$PROJECT_DIR$/web-gui/web-gui.iml" />
     </modules>
   </component>
 </project>

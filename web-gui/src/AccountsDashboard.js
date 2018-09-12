@@ -3,7 +3,7 @@ import CurrencyFormat from 'react-currency-format';
 
 var request = require('request');
 
-class SignOn extends Component {
+class AccountsDashboard extends Component {
     constructor(props) {
         super(props);
         this.handleLoginSubmit = this.handleLoginSubmit.bind(this);
@@ -63,7 +63,7 @@ class SignOn extends Component {
         }
 
         else if (isArchitectureSelected) {
-            display = <ArchitectureImage onLogoutClick={this.handleLogoutClick} />;
+            display = <ArchitecturePanel onLogoutClick={this.handleLogoutClick} />;
         }
 
         else {
@@ -130,7 +130,7 @@ function AccountsSummary(props) {
                             <h4 className="my-0 font-weight-normal">{props.linesofcredit.name}</h4>
                         </div>
                         <div className="card-body">
-                            <h1 className="card-title pricing-card-title">
+                            <h1 className="card-title pricing-card-title text-danger">
                                 <CurrencyFormat value={props.linesofcredit.balance} displayType={'text'}
                                                 thousandSeparator={true} prefix={'$'}/>
                             </h1>
@@ -164,7 +164,7 @@ function LoginForm(props) {
     );
 }
 
-function ArchitectureImage(props) {
+function ArchitecturePanel(props) {
 
     return (
         <div class="pretty-pic">
@@ -178,4 +178,4 @@ function ArchitectureImage(props) {
         </div>);
 }
 
-export default SignOn;
+export default AccountsDashboard;

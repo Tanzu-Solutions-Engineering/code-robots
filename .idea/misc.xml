@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/backend-banking-legacy" />
+  </component>
   <component name="JavaScriptSettings">
     <option name="languageLevel" value="JSX" />
   </component>
@@ -9,6 +12,7 @@
         <option value="$PROJECT_DIR$/backend-banking/pom.xml" />
         <option value="$PROJECT_DIR$/backend-investments/pom.xml" />
         <option value="$PROJECT_DIR$/backend-linesofcredit/pom.xml" />
+        <option value="$PROJECT_DIR$/backend-banking-legacy/pom.xml" />
       </list>
     </option>
   </component>

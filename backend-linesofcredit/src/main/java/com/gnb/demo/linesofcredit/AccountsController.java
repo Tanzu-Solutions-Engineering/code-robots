@@ -11,11 +11,13 @@ public class AccountsController {
 
     @RequestMapping("/account/{id}")
     public Account accountDetails(@PathVariable String id) {
+        float balance = (float)(Math.random() * (-10000));
         Account acct = new Account();
         acct.setId(id);
-        acct.setName("Lines of Credit");
-        acct.setBalance(new BigDecimal(-100000.45));
-        acct.setDescription("My GNB Credit Card Balance");
+        acct.setName("Credit Card Balances");
+        acct.setBalance(String.format("%.02f", balance));
+        acct.setDescription("My credit card balances is NEW. The application is built on Spring 2.x. It uses the " +
+                "latest/greatest technology but it is not immune to vulnerabilities");
         return acct;
     }
 }

@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Fake Bank",
+  "name": "Snyk Demo for SP1 2018",
   "icons": [
     {
       "src": "favicon.ico",

@@ -7,12 +7,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="backend-banking" />
+        <module name="backend-banking-legacy" />
         <module name="backend-investments" />
         <module name="backend-linesofcredit" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="backend-banking" target="1.8" />
+      <module name="backend-banking-legacy" target="1.5" />
       <module name="backend-investments" target="1.8" />
       <module name="backend-linesofcredit" target="1.8" />
     </bytecodeTargetLevel>
