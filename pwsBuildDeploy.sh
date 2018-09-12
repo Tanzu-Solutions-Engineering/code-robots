@@ -16,4 +16,4 @@ npm run build
 
 cd ..
 
-#cf push
+cf push

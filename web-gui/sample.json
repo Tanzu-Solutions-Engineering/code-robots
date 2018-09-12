@@ -1,0 +1,20 @@
+{
+  "lines_of_credit": {
+    "id": "123",
+    "balance": "-7141.81",
+    "name": "Credit Card Balances",
+    "description": "My credit card balances is NEW. The application is built on Spring 2.x. It uses the latest/greatest technology but it is not immune to vulnerabilities"
+  },
+  "investments": {
+    "id": "123",
+    "balance": "88013.11",
+    "name": "Investments",
+    "description": "My investments account has been around a few years. This application is built on Spring Boot 1.x and it could use a framework refresh"
+  },
+  "checking": {
+    "id": "123",
+    "balance": "3903.04",
+    "name": "Checking",
+    "description": "My crusty old checking account that has been around for the last 20 years. This application is built on apache struts 1.x. No Spring Boot!"
+  }
+}

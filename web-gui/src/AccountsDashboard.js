@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import CurrencyFormat from 'react-currency-format';
+import archimage from './fake-bank-architecture.png';
 
 var request = require('request');
 
@@ -167,14 +168,8 @@ function LoginForm(props) {
 function ArchitecturePanel(props) {
 
     return (
-        <div class="pretty-pic">
-            <h1>PRETTY PICTURE</h1>
-            <input
-                type="button"
-                className="btn btn-lg btn-block btn-outline-primary"
-                value="Back"
-                onClick={props.onLogoutClick}/>
-
+        <div>
+            <img class="pretty-pic" src={archimage} alt="app architecture" onClick={props.onLogoutClick} />
         </div>);
 }
 
