@@ -37,7 +37,7 @@ with modern apps because of deep npm and maven dependency trees. These issues ex
 1. If you have more time, go a little deeper into how Snyk can help you not only see but address vulnerabilities.
 1. Open a terminal window and `cd snyk-demo`
 1. Run `snyk test backend-banking-legacy`. Explain that the CLI shows the same data as the dashboard.
-1. Run `snyk wizard web-gateway`. Explain how Snyk can automitically remediate some issues with node based apps.
+1. Run `cd web-gateway` then `snyk wizard`. Explain how Snyk can automitically remediate some issues with node based apps.
 1. Commit and push changes to github. Open Snyk dashboard, re-scan the `web-gateway` project and show a reduction in 
 total vulnerabilities.
 1. Run `cf push -f ./manifest-special.yml`. This will attempt to push `backend-banking-legacy` by using the [Snyk java buildpack](https://github.com/AH7/java-buildpack).
