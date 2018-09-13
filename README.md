@@ -7,7 +7,7 @@ will work on any PCF environment that has the node, staticfile and java buildpac
 * You may need to edit environment variable entries in `manifest.yml`. This
 demo does not use SCS or any other service registry. All microservice endpoints are wired up via env entries
 in the manifest.
-* You may need to edit environment variable entries in and `./web-gui/src/config.json`. The web gui has web 
+* You may need to edit environment variable entries in `./web-gui/src/config.json`. The web gui has web 
 links to your snyk dashboard and cloud foundry apps manager. The default setting for snyk 
 dashboard is: `https://app.snyk.io/org/pivotal-demo/`. The default setting for apps manager 
 is: `https://console.run.pivotal.io/`
@@ -24,11 +24,11 @@ is: `https://console.run.pivotal.io/`
 1. Open the web-gui and Sign-On using any User ID. No password is needed. If the user id starts with '1' the super special
 struts 1.x microservice will be invoked. Otherwise, it's a spring-boot 1.x endopoint.
 1. Briefly explain that each account summary box is a JSON response from a different microservice. The account summary
-descriptions will tell you which apps are spring boot 1.x. There is a node web gateway that makes 3 async HTTP GET calls
+descriptions will tell you which apps are spring boot 1.x, 2.x or struts 1.x. There is a node web gateway that makes 3 async HTTP GET calls
 and combines the results for the web gui.
 1. Click any `Details` button. This will log you out, essentially resetting the GUI.
 1. Click on the Snyk image. It will open a new tab window and take you to the snyk dashboard. Explain the various 
-vulnerabilities in the this application. 
+vulnerabilities in the applications. 
 1. Go back to the web-gui and click on the `Architecture` button. Explain the web-gui -> bff -> microservice based architecture. Key frameworks
 in use for each service are listed in the diagram. Re-emphasize the different vulnerability challenges
 with modern apps because of deep npm and maven dependency trees. These issues exist even when the app is super simple.
@@ -49,7 +49,9 @@ This push should fail b/c of HIGH level vulnerabilities.
 
 # Screenshots
 ### Web GUI Login
-![Web GUI Login](web-gui-login.png) 
+
+{align=center} ![Web GUI Login](web-gui-login.png)
+
 ### Web GUI Dashboard
 ![Web GUI Dashboard](web-gui-dashboard.png) 
 ### Snyk Dashboard
