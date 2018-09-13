@@ -48,9 +48,7 @@ This push should fail b/c of HIGH level vulnerabilities.
 ![Demo Architecture](fake-bank-architecture.png) 
 
 # Screenshots
-### Web GUI Login
-
-{align=center} 
+### Web GUI Login 
 ![Web GUI Login](web-gui-login.png)
 
 ### Web GUI Dashboard
