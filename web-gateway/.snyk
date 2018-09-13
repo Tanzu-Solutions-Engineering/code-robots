@@ -1,0 +1,32 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.12.0
+# ignores vulnerabilities until expiry date; change duration by modifying expiry date
+ignore:
+  'npm:chownr:20180731':
+    - gulp-nodemon > nodemon > chokidar > fsevents > node-pre-gyp > tar > chownr:
+        reason: None given
+        expires: '2018-10-13T20:03:11.107Z'
+  'npm:lodash:20180130':
+    - gulp > vinyl-fs > glob-watcher > gaze > globule > lodash:
+        reason: None given
+        expires: '2018-10-13T20:03:11.107Z'
+    - gulp-nodemon > gulp > vinyl-fs > glob-watcher > gaze > globule > lodash:
+        reason: None given
+        expires: '2018-10-13T20:03:11.107Z'
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:minimatch:20160620':
+    - gulp-nodemon > gulp > vinyl-fs > glob-stream > minimatch:
+        patched: '2018-09-13T20:01:56.834Z'
+    - gulp-nodemon > gulp > vinyl-fs > glob-stream > glob > minimatch:
+        patched: '2018-09-13T20:01:56.834Z'
+    - gulp > vinyl-fs > glob-watcher > gaze > globule > minimatch:
+        patched: '2018-09-13T20:01:56.834Z'
+    - gulp > vinyl-fs > glob-watcher > gaze > globule > glob > minimatch:
+        patched: '2018-09-13T20:01:56.834Z'
+    - gulp-nodemon > gulp > vinyl-fs > glob-watcher > gaze > globule > minimatch:
+        patched: '2018-09-13T20:01:56.834Z'
+    - gulp-nodemon > gulp > vinyl-fs > glob-watcher > gaze > globule > glob > minimatch:
+        patched: '2018-09-13T20:01:56.834Z'
+    - gulp > vinyl-fs > glob-stream > minimatch:
+        patched: '2018-09-13T20:01:56.834Z'
