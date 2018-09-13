@@ -12,7 +12,7 @@ links to your snyk dashboard and cloud foundry apps manager. The default setting
 dashboard is: `https://app.snyk.io/org/pivotal-demo/`. The default setting for apps manager 
 is: `https://console.run.pivotal.io/
 
-#Setup
+# Setup
 1. Setup [Github integration](https://app.snyk.io/org/pivotal-demo/integrations) and make sure that all 6 projects are listed in your Dashboard. 
 1. Before running the demo script, build and deploy all projects using `./pwsBuildDeploy.sh` or similar commands.
 1. Open web-gui URL and verify that clicking on the snyk image takes you to the correct snyk dashboard. 
@@ -44,13 +44,13 @@ total vulnerabilities.
 This push should fail b/c of HIGH level vulnerabilities. 
 1. Explain how the CLI and snyk buildpacks can be used in CI pipelines to protect production.
 
-#Architecture 
+# Architecture 
 ![Demo Architecture](fake-bank-architecture.png) 
 
-#Screenshots
-###Web GUI Login
+# Screenshots
+### Web GUI Login
 ![Web GUI Login](web-gui-login.png) 
-###Web GUI Dashboard
+### Web GUI Dashboard
 ![Web GUI Dashboard](web-gui-dashboard.png) 
-###Snyk Dashboard
+### Snyk Dashboard
 ![Snyk Dashboard](snyk-dashboard.png) 

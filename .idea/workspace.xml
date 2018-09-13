@@ -7,14 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="13c1b090-674a-4806-bb52-9bd9c89a3869" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/fake-bank-architecture.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manifest-special.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/snyk-dashboard.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-gui-dashboard.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-gui-login.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manifest.yml" beforeDir="false" afterPath="$PROJECT_DIR$/manifest.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/backend-banking/target/" />
     <ignored path="$PROJECT_DIR$/backend-investments/target/" />
@@ -49,7 +42,7 @@
           <entry key="js" value="11532" />
           <entry key="json" value="82" />
           <entry key="jsp" value="526" />
-          <entry key="md" value="4543" />
+          <entry key="md" value="4549" />
           <entry key="properties" value="94" />
           <entry key="sh" value="132" />
           <entry key="txt" value="23" />
@@ -66,7 +59,7 @@
           <entry key="JSON" value="82" />
           <entry key="JSP" value="526" />
           <entry key="JavaScript" value="11532" />
-          <entry key="Markdown" value="4543" />
+          <entry key="Markdown" value="4549" />
           <entry key="PLAIN_TEXT" value="155" />
           <entry key="Properties" value="94" />
           <entry key="XML" value="342" />
@@ -180,8 +173,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="810">
-                <caret line="54" column="17" selection-start-line="54" selection-start-column="17" selection-end-line="54" selection-end-column="17" />
+              <first_editor relative-caret-position="466">
+                <caret line="54" column="4" selection-start-line="54" selection-start-column="4" selection-end-line="54" selection-end-column="4" />
               </first_editor>
               <second_editor />
             </state>
@@ -373,7 +366,7 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536849378203" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536854177311" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
@@ -661,15 +654,16 @@
       <workItem from="1535478471075" duration="39825000" />
       <workItem from="1535641458257" duration="34802000" />
       <workItem from="1536064917132" duration="32164000" />
-      <workItem from="1536765188357" duration="29398000" />
+      <workItem from="1536765188357" duration="29977000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="144005000" />
+    <option name="totallyTimeSpent" value="144584000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="46" width="1629" height="953" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" order="0" visible="true" weight="0.18273471" />
       <window_info id="Structure" order="1" weight="0.2494244" />
@@ -1028,8 +1022,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="810">
-            <caret line="54" column="17" selection-start-line="54" selection-start-column="17" selection-end-line="54" selection-end-column="17" />
+          <first_editor relative-caret-position="466">
+            <caret line="54" column="4" selection-start-line="54" selection-start-column="4" selection-end-line="54" selection-end-column="4" />
           </first_editor>
           <second_editor />
         </state>
