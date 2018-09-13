@@ -50,7 +50,8 @@ This push should fail b/c of HIGH level vulnerabilities.
 # Screenshots
 ### Web GUI Login
 
-{align=center} ![Web GUI Login](web-gui-login.png)
+{align=center} 
+![Web GUI Login](web-gui-login.png)
 
 ### Web GUI Dashboard
 ![Web GUI Dashboard](web-gui-dashboard.png) 
