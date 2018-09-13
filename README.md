@@ -10,7 +10,7 @@ in the manifest.
 * You may need to edit environment variable entries in and `./web-gui/src/config.json`. The web gui has web 
 links to your snyk dashboard and cloud foundry apps manager. The default setting for snyk 
 dashboard is: `https://app.snyk.io/org/pivotal-demo/`. The default setting for apps manager 
-is: `https://console.run.pivotal.io/
+is: `https://console.run.pivotal.io/`
 
 # Setup
 1. Setup [Github integration](https://app.snyk.io/org/pivotal-demo/integrations) and make sure that all 6 projects are listed in your Dashboard. 
