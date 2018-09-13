@@ -4,23 +4,28 @@ applications:
   path: backend-banking/target/backend-banking.jar
   instances: 1
   memory: 1G
+  buildpack: java_buildpack
 - name: gnb-backend-banking-legacy
   path: backend-banking-legacy/target/backend-banking-legacy.war
   instances: 1
   memory: 1G
+  buildpack: java_buildpack
 - name: gnb-backend-investments
   path: backend-investments/target/backend-investments.jar
   instances: 1
   memory: 1G
+  buildpack: java_buildpack
 - name: gnb-backend-linesofcredit
   path: backend-linesofcredit/target/backend-linesofcredit.jar
   instances: 1
   memory: 1G
+  buildpack: java_buildpack
 - name: gnb-web-gateway
   path: ./web-gateway
   command: node app.js
   instances: 1
   memory: 64M
+  buildpack: nodejs_buildpack
   env:
     backend_banking_url: http://gnb-backend-banking.cfapps.io
     backend_banking_legacy_url: http://gnb-backend-banking-legacy.cfapps.io
@@ -30,7 +35,6 @@ applications:
   path: ./web-gui/build
   instances: 1
   memory: 64M
-  buildpacks:
-  - Staticfile
+  buildpack: staticfile_buildpack
   env:
     FAKE_BANK_BFF_URL: http://gnb-web-gateway.cfapps.io
