@@ -12,7 +12,6 @@
         <option value="$PROJECT_DIR$/backend-banking/pom.xml" />
         <option value="$PROJECT_DIR$/backend-investments/pom.xml" />
         <option value="$PROJECT_DIR$/backend-linesofcredit/pom.xml" />
-        <option value="$PROJECT_DIR$/backend-banking-legacy/pom.xml" />
       </list>
     </option>
   </component>

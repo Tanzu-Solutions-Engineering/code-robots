@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import CurrencyFormat from 'react-currency-format';
 import archimage from './fake-bank-architecture.png';
+import config from './config';
 
 var request = require('request');
 
@@ -32,7 +33,7 @@ class AccountsDashboard extends Component {
             userId: event.target.userId.value
         });
         var options = {
-            uri: 'http://localhost:3001/api/account/' + event.target.userId.value,
+            uri: config.FAKE_BANK_BFF_URL + "/api/account/" + event.target.userId.value,
             json: true // Automatically parses the JSON string in the response
         };
 

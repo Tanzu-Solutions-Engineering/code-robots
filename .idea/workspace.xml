@@ -7,8 +7,61 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="13c1b090-674a-4806-bb52-9bd9c89a3869" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/atomistSetup.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/variables.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_3_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_transaction_javax_transaction_api_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_32.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_32.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_32.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_13.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_0_1_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_16_22.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-banking-legacy/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-banking-legacy/src/main/java/MessageResources.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-banking-legacy/src/main/webapp/WEB-INF/struts-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-banking-legacy/src/main/webapp/WEB-INF/validation.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-banking-legacy/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-banking-legacy/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-banking-legacy/src/main/webapp/pages/Account.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-banking-legacy/target/backend-banking-legacy.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-banking-legacy/target/backend-banking-legacy/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-banking-legacy/target/backend-banking-legacy/WEB-INF/lib/antlr-2.7.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-banking-legacy/target/backend-banking-legacy/WEB-INF/lib/commons-beanutils-1.8.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-banking-legacy/target/backend-banking-legacy/WEB-INF/lib/commons-chain-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-banking-legacy/target/backend-banking-legacy/WEB-INF/lib/commons-digester-1.8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-banking-legacy/target/backend-banking-legacy/WEB-INF/lib/commons-logging-1.0.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-banking-legacy/target/backend-banking-legacy/WEB-INF/lib/commons-validator-1.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-banking-legacy/target/backend-banking-legacy/WEB-INF/lib/json-20180813.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-banking-legacy/target/backend-banking-legacy/WEB-INF/lib/oro-2.0.8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-banking-legacy/target/backend-banking-legacy/WEB-INF/lib/struts-core-1.3.10.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-banking-legacy/target/backend-banking-legacy/WEB-INF/lib/struts-taglib-1.3.10.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-banking-legacy/target/backend-banking-legacy/WEB-INF/lib/struts-tiles-1.3.10.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-banking-legacy/target/backend-banking-legacy/WEB-INF/struts-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-banking-legacy/target/backend-banking-legacy/WEB-INF/validation.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-banking-legacy/target/backend-banking-legacy/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-banking-legacy/target/backend-banking-legacy/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-banking-legacy/target/backend-banking-legacy/pages/Account.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-banking/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend-banking/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-banking/src/main/java/com/gnb/demo/banking/AccountsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend-banking/src/main/java/com/gnb/demo/banking/AccountsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-banking/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/backend-banking/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-investments/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend-investments/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-linesofcredit/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend-linesofcredit/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fake-bank-architecture.png" beforeDir="false" afterPath="$PROJECT_DIR$/fake-bank-architecture.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manifest-special.yml" beforeDir="false" afterPath="$PROJECT_DIR$/manifest-special.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manifest.yml" beforeDir="false" afterPath="$PROJECT_DIR$/manifest.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pwsBuildDeploy.sh" beforeDir="false" afterPath="$PROJECT_DIR$/pwsBuildDeploy.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-gui/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/web-gui/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-gui/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/web-gui/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-gui/src/AccountsDashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/web-gui/src/AccountsDashboard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-gui/src/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/web-gui/src/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-gui/src/fake-bank-architecture.png" beforeDir="false" afterPath="$PROJECT_DIR$/web-gui/src/fake-bank-architecture.png" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/backend-banking/target/" />
     <ignored path="$PROJECT_DIR$/backend-investments/target/" />
@@ -107,14 +160,77 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-566572299">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="Staticfile" value="2" />
+          <entry key="html" value="1" />
+          <entry key="java" value="3" />
+          <entry key="js" value="7" />
+          <entry key="json" value="3" />
+          <entry key="md" value="3" />
+          <entry key="mvnw" value="1" />
+          <entry key="png" value="6" />
+          <entry key="properties" value="1" />
+          <entry key="sh" value="3" />
+          <entry key="xml" value="6" />
+          <entry key="yml" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Bash" value="4" />
+          <entry key="HTML" value="1" />
+          <entry key="Image" value="6" />
+          <entry key="JAVA" value="3" />
+          <entry key="JSON" value="3" />
+          <entry key="JavaScript" value="7" />
+          <entry key="Markdown" value="3" />
+          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="Properties" value="1" />
+          <entry key="XML" value="6" />
+          <entry key="YAML" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="5" />
+          <entry key="js" value="33" />
+          <entry key="json" value="1" />
+          <entry key="md" value="378" />
+          <entry key="properties" value="53" />
+          <entry key="sh" value="86" />
+          <entry key="xml" value="3" />
+          <entry key="yml" value="275" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Bash" value="86" />
+          <entry key="JAVA" value="5" />
+          <entry key="JSON" value="1" />
+          <entry key="JavaScript" value="33" />
+          <entry key="Markdown" value="378" />
+          <entry key="Properties" value="53" />
+          <entry key="XML" value="3" />
+          <entry key="YAML" value="275" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web-gui/package.json">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/manifest.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="43" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
+            <state relative-caret-position="616">
+              <caret line="28" column="43" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -123,37 +239,40 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="363">
-                <caret line="40" column="61" selection-start-line="40" selection-start-column="59" selection-end-line="40" selection-end-column="61" />
+              <first_editor relative-caret-position="-12">
+                <caret line="16" column="105" selection-start-line="16" selection-start-column="105" selection-end-line="16" selection-end-column="105" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web-gateway/package.json">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/atomistSetup.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+            <state relative-caret-position="66">
+              <caret line="3" column="42" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web-gateway/gulpfile.js">
+        <entry file="file://$PROJECT_DIR$/backend-banking/src/main/java/com/gnb/demo/banking/AccountsController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+            <state relative-caret-position="355">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web-gateway/package-lock.json">
+        <entry file="file://$PROJECT_DIR$/backend-banking/src/main/java/com/gnb/demo/banking/BankingApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+            <state relative-caret-position="110">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -161,8 +280,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web-gateway/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
+            <state relative-caret-position="135">
               <caret line="18" column="95" selection-start-line="18" selection-start-column="95" selection-end-line="18" selection-end-column="95" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backend-banking/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="22">
+              <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pwsBuildDeploy.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="193">
+              <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -170,37 +307,15 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/manifest-special.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+            <state relative-caret-position="198">
+              <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web-gui/src/App.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="45" selection-start-line="45" selection-end-line="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web-gui/src/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web-gui/public/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/web-gui/src/fake-bank-architecture.png">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
     </leaf>
@@ -216,6 +331,9 @@
     <findStrings>
       <find>img</find>
       <find>gnb</find>
+      <find>h2</find>
+      <find>localhost</find>
+      <find>legacy</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -233,9 +351,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/web-gateway/.gitignore" />
-        <option value="$PROJECT_DIR$/backend-linesofcredit/src/main/java/com/gnb/demo/backendbanking/AccountsController.java" />
-        <option value="$PROJECT_DIR$/backend-investments/src/main/java/com/gnb/demo/backendbanking/AccountsController.java" />
         <option value="$PROJECT_DIR$/backend-investments/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/backend-linesofcredit/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/backend-linesofcredit/src/main/java/com/gnb/demo/backendinvestments/AccountsController.java" />
@@ -243,9 +358,6 @@
         <option value="$PROJECT_DIR$/backend-investments/src/main/java/com/gnb/demo/linesofcredit/Account.java" />
         <option value="$PROJECT_DIR$/backend-investments/src/main/java/com/gnb/demo/investments/BackendInvestmentsApplication.java" />
         <option value="$PROJECT_DIR$/backend-investments/src/main/java/com/gnb/demo/investments/InvestmentsApplication.java" />
-        <option value="$PROJECT_DIR$/backend-banking/pom.xml" />
-        <option value="$PROJECT_DIR$/backend-investments/pom.xml" />
-        <option value="$PROJECT_DIR$/backend-linesofcredit/pom.xml" />
         <option value="$PROJECT_DIR$/builAll.sh" />
         <option value="$PROJECT_DIR$/web-gateway/Tests/accountIntegrationTests.js" />
         <option value="$PROJECT_DIR$/react-gui/src/index.css" />
@@ -271,19 +383,25 @@
         <option value="$PROJECT_DIR$/backend-banking-legacy/src/main/webapp/pages/Account.jsp" />
         <option value="$PROJECT_DIR$/backend-banking/src/main/java/com/gnb/demo/banking/Account.java" />
         <option value="$PROJECT_DIR$/web-gateway/app.js" />
-        <option value="$PROJECT_DIR$/backend-banking/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/backend-banking/src/main/java/com/gnb/demo/banking/AccountsController.java" />
-        <option value="$PROJECT_DIR$/web-gui/package.json" />
-        <option value="$PROJECT_DIR$/web-gui/src/config.js" />
         <option value="$PROJECT_DIR$/web-gui/sample.json" />
         <option value="$PROJECT_DIR$/web-gui/src/App.css" />
-        <option value="$PROJECT_DIR$/web-gui/src/AccountsDashboard.js" />
-        <option value="$PROJECT_DIR$/pwsBuildDeploy.sh" />
-        <option value="$PROJECT_DIR$/manifest.yml" />
         <option value="$PROJECT_DIR$/web-gui/public/index.html" />
-        <option value="$PROJECT_DIR$/manifest-special.yml" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/web-gateway/package.json" />
+        <option value="$PROJECT_DIR$/variables.yml" />
+        <option value="$PROJECT_DIR$/backend-linesofcredit/pom.xml" />
+        <option value="$PROJECT_DIR$/web-gui/package.json" />
+        <option value="$PROJECT_DIR$/web-gui/src/config.js" />
+        <option value="$PROJECT_DIR$/web-gui/src/AccountsDashboard.js" />
+        <option value="$PROJECT_DIR$/backend-banking/pom.xml" />
+        <option value="$PROJECT_DIR$/backend-investments/pom.xml" />
+        <option value="$PROJECT_DIR$/manifest-small.yml" />
+        <option value="$PROJECT_DIR$/pwsBuildDeploy.sh" />
+        <option value="$PROJECT_DIR$/manifest-special.yml" />
+        <option value="$PROJECT_DIR$/manifest.yml" />
+        <option value="$PROJECT_DIR$/backend-banking/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/backend-banking/src/main/java/com/gnb/demo/banking/AccountsController.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/atomistSetup.sh" />
       </list>
     </option>
   </component>
@@ -302,16 +420,15 @@
   </component>
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/web-gateway/node_modules" />
-    <handled-path value="$PROJECT_DIR$/web-gui/node_modules" />
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
       <path value="$PROJECT_DIR$/web-gateway/package.json" />
-      <path value="$PROJECT_DIR$/web-gui/package.json" />
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="46" />
+    <option name="x" value="27" />
+    <option name="y" value="43" />
     <option name="width" value="1629" />
     <option name="height" value="953" />
   </component>
@@ -333,22 +450,29 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="snyk-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web-gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="code-robots" type="b2602c69:ProjectViewProjectNode" />
+              <item name="@atomist" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="snyk-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web-gui" type="462c0819:PsiDirectoryNode" />
+              <item name="code-robots" type="b2602c69:ProjectViewProjectNode" />
+              <item name="@atomist" type="462c0819:PsiDirectoryNode" />
+              <item name="sdm-pack-spring" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="code-robots" type="b2602c69:ProjectViewProjectNode" />
+              <item name="@atomist" type="462c0819:PsiDirectoryNode" />
+              <item name="sdm-pack-spring" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -361,7 +485,8 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536870082757" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550268431599" />
+    <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
@@ -370,21 +495,21 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.applicationServers" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.gnb.demo.backendbanking" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web-gui/src" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/web-gui" />
       <recent name="$PROJECT_DIR$/" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/web-gui/src" />
       <recent name="$PROJECT_DIR$/backend-banking-legacy" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -416,6 +541,25 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="web-gateway" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <module name="web-gateway" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <framework value="gotest" />
+      <kind value="DIRECTORY" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <method v="2" />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -651,18 +795,19 @@
       <workItem from="1535641458257" duration="34802000" />
       <workItem from="1536064917132" duration="32164000" />
       <workItem from="1536765188357" duration="36917000" />
+      <workItem from="1550061165039" duration="21425000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="151524000" />
+    <option name="totallyTimeSpent" value="172949000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="46" width="1629" height="953" extended-state="0" />
+    <frame x="27" y="43" width="1629" height="953" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" id="Project" order="0" visible="true" weight="0.18273471" />
-      <window_info id="Structure" order="1" weight="0.2494244" />
+      <window_info id="Project" order="0" visible="true" weight="0.2362949" />
+      <window_info id="Structure" order="1" weight="0.24889728" />
       <window_info id="Learn" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Designer" order="4" />
@@ -670,7 +815,6 @@
       <window_info id="Capture Tool" order="6" />
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info id="Web" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Application Servers" weight="0.329849" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329849" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.329849" />
@@ -679,13 +823,14 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.329849" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.29965156" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.38559815" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Spring" order="11" weight="0.329849" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.329849" />
       <window_info anchor="bottom" id="Run Dashboard" order="14" weight="0.329849" />
+      <window_info anchor="bottom" id="Application Servers" order="15" weight="0.329849" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -716,76 +861,14 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/backend-linesofcredit/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1815">
-          <caret line="121" column="40" selection-start-line="121" selection-start-column="40" selection-end-line="121" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend-investments/src/main/java/com/gnb/demo/investments/InvestmentsApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react-gui/README.md" />
-    <entry file="file://$PROJECT_DIR$/web-gateway/Tests/accountIntegrationTests.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="45" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react-gui/public/pricing/index.html" />
-    <entry file="file://$PROJECT_DIR$/backend-linesofcredit/src/main/java/com/gnb/demo/linesofcredit/LinesOfCreditApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react-gui/.env.development" />
-    <entry file="file://$PROJECT_DIR$/react-gui/.env" />
-    <entry file="file://$PROJECT_DIR$/web-gui/public/manifest.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="26" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-gui/src/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-gui/src/registerServiceWorker.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-685" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend-banking-legacy/mvnw">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/backend-banking-legacy/src/main/java/MessageResources.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-137" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend-banking-legacy/src/main/webapp/WEB-INF/src/build.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1280" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend-banking-legacy/src/main/webapp/WEB-INF/src/README.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend-banking-legacy/backend-banking-legacy.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/backend-banking-legacy/src/main/webapp/WEB-INF/src/build.xml" />
+    <entry file="file://$PROJECT_DIR$/backend-banking-legacy/src/main/webapp/WEB-INF/src/README.txt" />
+    <entry file="file://$PROJECT_DIR$/backend-banking-legacy/backend-banking-legacy.iml" />
     <entry file="file://$PROJECT_DIR$/backend-banking-legacy/src/main/webapp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -838,9 +921,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -848,40 +928,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="57" selection-start-line="16" selection-start-column="57" selection-end-line="16" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend-banking/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1815">
-          <caret line="121" column="46" selection-start-line="121" selection-start-column="8" selection-end-line="121" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend-investments/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1815">
-          <caret line="121" column="38" selection-start-line="121" selection-start-column="38" selection-end-line="121" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend-banking/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="53" selection-start-line="3" selection-start-column="53" selection-end-line="3" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-gui/public/Staticfile">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend-banking/src/main/java/com/gnb/demo/banking/BankingApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -889,24 +935,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend-banking/src/main/java/com/gnb/demo/banking/AccountsController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="31" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#392#415#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend-banking-legacy/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-15">
-          <caret line="26" column="52" selection-start-line="26" selection-start-column="52" selection-end-line="26" selection-end-column="52" />
         </state>
       </provider>
     </entry>
@@ -924,126 +952,231 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web-gui/src/AccountsDashboard.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2565">
-          <caret line="171" column="107" selection-start-line="171" selection-start-column="107" selection-end-line="171" selection-end-column="107" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pwsBuildDeploy.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-gui/src/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="54" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manifest.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web-gui/src/App.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-gui/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="115" selection-start-line="15" selection-start-column="64" selection-end-line="15" selection-end-column="115" />
-          <folding>
-            <element signature="e#0#45#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-gui/src/App.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="45" selection-start-line="45" selection-end-line="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-gui/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-gui/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manifest-special.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="363">
-            <caret line="40" column="61" selection-start-line="40" selection-start-column="59" selection-end-line="40" selection-end-column="61" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/web-gateway/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
+        <state relative-caret-position="440">
           <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web-gateway/package-lock.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
+        <state relative-caret-position="484">
           <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web-gateway/app.js">
+    <entry file="file://$PROJECT_DIR$/web-gui/src/App.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="95" selection-start-line="18" selection-start-column="95" selection-end-line="18" selection-end-column="95" />
+        <state relative-caret-position="990">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-gui/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend-banking-legacy/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="26" column="52" selection-start-line="26" selection-start-column="52" selection-end-line="26" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend-linesofcredit/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="66" column="14" selection-start-line="66" selection-start-column="14" selection-end-line="66" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web-gateway/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
+        <state relative-caret-position="308">
           <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-gui/build/Staticfile">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-gui/public/Staticfile">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-gui/public/manifest.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="26" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-gui/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4">
+          <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-gui/src/registerServiceWorker.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-gui/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web-gui/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="43" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
+        <state relative-caret-position="310">
+          <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-gui/src/AccountsDashboard.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="35" column="46" selection-start-line="35" selection-start-column="46" selection-end-line="35" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/@atomist/sdm-pack-spring/lib/spring/transform/tryToDowngradeSpringBootVersion.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="23" column="50" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend-banking/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend-investments/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manifest-small.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="23" column="78" selection-start-line="23" selection-start-column="78" selection-end-line="23" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/variables.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-gui/src/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="65" selection-start-line="3" selection-start-column="65" selection-end-line="3" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend-linesofcredit/mvnw">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2456" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pwsBuildDeploy.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-gateway/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="18" column="95" selection-start-line="18" selection-start-column="95" selection-end-line="18" selection-end-column="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-gui/src/fake-bank-architecture.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-gui/fake-bank-architecture.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fake-bank-architecture.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manifest-special.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend-banking/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend-banking/src/main/java/com/gnb/demo/banking/BankingApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend-banking/src/main/java/com/gnb/demo/banking/AccountsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manifest.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="28" column="43" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-12">
+            <caret line="16" column="105" selection-start-line="16" selection-start-column="105" selection-end-line="16" selection-end-column="105" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atomistSetup.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="42" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
         </state>
       </provider>
     </entry>
@@ -1053,7 +1186,7 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>unnamed</last-edited>
+          <last-edited>backend-banking-legacy:war</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
