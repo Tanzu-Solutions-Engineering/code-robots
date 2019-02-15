@@ -1,40 +1,54 @@
 ---
 applications:
-- name: fnb-backend-banking
+- name: backend-banking
   path: backend-banking/target/backend-banking.jar
   instances: 1
-  memory: 1G
-  buildpack: java_buildpack
-- name: fnb-backend-banking-legacy
-  path: backend-banking-legacy/target/backend-banking-legacy.war
-  instances: 1
-  memory: 1G
-  buildpack: java_buildpack
-- name: fnb-backend-investments
+  memory: 512M
+  env:
+    JAVA_OPTS: "-XX:ReservedCodeCacheSize=200M -Xss228K"
+    backend_banking_legacy_url: http://((base_route))-backend-banking-legacy.cfapps.io/account.do
+  buildpacks:
+    - java_buildpack
+  routes:
+    - route: ((base_route))-backend-banking.cfapps.io
+- name: backend-investments
   path: backend-investments/target/backend-investments.jar
   instances: 1
-  memory: 1G
-  buildpack: java_buildpack
-- name: fnb-backend-linesofcredit
+  memory: 512M
+  env:
+    JAVA_OPTS: "-XX:ReservedCodeCacheSize=200M -Xss228K"
+  buildpacks:
+    - java_buildpack
+  routes:
+    - route: ((base_route))-backend-investments.cfapps.io
+- name: backend-linesofcredit
   path: backend-linesofcredit/target/backend-linesofcredit.jar
   instances: 1
-  memory: 1G
-  buildpack: java_buildpack
-- name: fnb-web-gateway
+  memory: 512M
+  env:
+    JAVA_OPTS: "-XX:ReservedCodeCacheSize=200M -Xss228K"
+  buildpacks:
+    - java_buildpack
+  routes:
+    - route: ((base_route))-backend-linesofcredit.cfapps.io
+- name: web-gateway
   path: ./web-gateway
   command: node app.js
   instances: 1
   memory: 64M
-  buildpack: nodejs_buildpack
+  buildpacks:
+    - nodejs_buildpack
+  routes:
+    - route: ((base_route))-web-gateway.cfapps.io
   env:
-    backend_banking_url: http://fnb-backend-banking.cfapps.io
-    backend_banking_legacy_url: http://fnb-backend-banking-legacy.cfapps.io
-    backend_investments_url: http://fnb-backend-investments.cfapps.io
-    backend_linesofcredit_url: http://fnb-backend-linesofcredit.cfapps.io
-- name: fnb-web-gui
+    backend_banking_url: http://((base_route))-backend-banking.cfapps.io
+    backend_investments_url: http://((base_route))-backend-investments.cfapps.io
+    backend_linesofcredit_url: http://((base_route))-backend-linesofcredit.cfapps.io
+- name: web-gui
   path: ./web-gui/build
   instances: 1
   memory: 64M
-  buildpack: staticfile_buildpack
-  env:
-    FAKE_BANK_BFF_URL: http://fnb-web-gateway.cfapps.io
+  buildpacks:
+    - staticfile_buildpack
+  routes:
+    - route: ((base_route))-web-gui.cfapps.io

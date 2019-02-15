@@ -7,7 +7,6 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="backend-banking" />
-        <module name="backend-banking-legacy" />
         <module name="backend-investments" />
         <module name="backend-linesofcredit" />
       </profile>
