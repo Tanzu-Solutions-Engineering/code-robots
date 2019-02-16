@@ -2,7 +2,7 @@ import { CodeTransformRegistration } from "@atomist/sdm";
 /**
  * Spring Boot version we want
  */
-export declare const DesiredSpringBootVersion = "1.5.15.RELEASE";
+export declare const DesiredSpringBootVersion = "1.5.0.RELEASE";
 export interface DowngradeSpringBootParameters {
     /**
      * Version to upgrade to
