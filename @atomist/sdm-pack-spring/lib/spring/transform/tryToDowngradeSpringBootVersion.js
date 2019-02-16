@@ -21,7 +21,7 @@ const setSpringBootVersionTransform_1 = require("./setSpringBootVersionTransform
 /**
  * Spring Boot version we want
  */
-exports.DesiredSpringBootVersion = "1.5.15.RELEASE";
+exports.DesiredSpringBootVersion = "1.5.0.RELEASE";
 /**
  * Wrap Spring Boot set version editor in a dryRunEditor, causing an event
  * handler to respond to the build with either a PR and Issue
