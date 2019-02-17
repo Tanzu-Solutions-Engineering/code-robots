@@ -12,6 +12,8 @@ in the manifest.
 links to your snyk dashboard, web gateway and cloud foundry apps manager. The default setting for snyk 
 dashboard is: `https://app.snyk.io/org/pivotal-demo/`. The default setting for apps manager 
 is: `https://console.run.pivotal.io/`. The default setting for the web gateway is `((base_route))-web-gui.cfapps.io`
+* OPTIONAL: If you are attempting the "Extended" demo, you will need to set `SNYK_TOKEN` in `variables.yml`
+The SNYK_TOKEN can be found in Snyk Dashboard -> Account Settings. 
 
 # Setup
 1. Setup [Github integration](https://app.snyk.io/org/pivotal-demo/integrations) and make sure that all 5 projects are listed in your Dashboard. 
@@ -20,6 +22,8 @@ is: `https://console.run.pivotal.io/`. The default setting for the web gateway i
 1. In web-gui URL make sure that the pivotal cloud foundry image takes you to the correct apps manager console
 1. Install the [snyk cli](https://snyk.io/docs/using-snyk)
 1. Verify the snyk cli works by running `snyk test backend-banking`. You should see some interesting vulnerabilities.
+1. Install the atomist SDM(https://atomist.com/developer.html). Make sure you specify `spring` as the SDM `type`.
+1. Open `atomistSetup.sh` and change the SDM_HOME variable to the home directory of your new SDM.
 
 # Demo Script - Short
 1. Open the web-gui and Sign-On using any User ID. No password is needed. If the user id starts with '1' the super special
@@ -41,7 +45,7 @@ with modern apps because of deep npm and maven dependency trees. These issues ex
 1. Run `cd web-gateway` then `snyk wizard`. Explain how Snyk can automitically remediate some issues with node based apps.
 1. Commit and push changes to github. Open Snyk dashboard, re-scan the `web-gateway` project and show a reduction in 
 total vulnerabilities.
-1. Run `cf push -f ./manifest-special.yml`. This will attempt to push `backend-banking` by using the [Snyk java buildpack](https://github.com/AH7/java-buildpack).
+1. Run `cf push -f manifest-special.yml --vars-file variables.yml`. This will attempt to push `backend-banking` by using the [Snyk java buildpack](https://github.com/AH7/java-buildpack).
 This push should fail b/c of HIGH level vulnerabilities. 
 1. Explain how the CLI and snyk buildpacks can be used in CI pipelines to protect production.
 
