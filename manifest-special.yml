@@ -1,10 +1,14 @@
 ---
 applications:
 - name: backend-banking
-  buildpack: https://github.com/AH7/java-buildpack
-  #buildpack: java_buildpack
-  path: backend-banking/target/backend-banking.war
+  buildpacks:
+    #- java_buildpack
+    - https://github.com/AH7/java-buildpack
+  path: backend-banking/target/backend-banking.jar
   instances: 1
-  memory: 1G
+  memory: 512M
+  env:
+    JAVA_OPTS: "-XX:ReservedCodeCacheSize=200M -Xss228K"
+    SNYK_TOKEN: ((SNYK_TOKEN))
   routes:
     - route: ((base_route))-backend-banking.cfapps.io

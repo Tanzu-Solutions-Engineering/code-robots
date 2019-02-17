@@ -1,8 +1,7 @@
 #!/usr/bin/env bash
-SDM_HOME=/Users/jwilliams/atomist/projects/jwilliams-pivotal/code-robots
-npm install -g @atomist/cli
-atomist create sdm
+SDM_HOME=~/atomist/projects/Pivotal-Field-Engineering/sdm-code-robots
 
-cp -rp ./@atomist ${SDM_HOME}/node_modules
+cp -rp ./atomist/* ${SDM_HOME}
 
-atomist start --local
+#cd ${SDM_HOME}
+#atomist start --local

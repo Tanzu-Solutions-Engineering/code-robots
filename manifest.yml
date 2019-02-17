@@ -6,7 +6,6 @@ applications:
   memory: 512M
   env:
     JAVA_OPTS: "-XX:ReservedCodeCacheSize=200M -Xss228K"
-    backend_banking_legacy_url: http://((base_route))-backend-banking-legacy.cfapps.io/account.do
   buildpacks:
     - java_buildpack
   routes:
