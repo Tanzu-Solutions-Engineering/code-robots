@@ -1,6 +1,6 @@
 # Setup
 
-## PWS
+## Pivotal Web Services [PWS](http://run.pivotal.io)
 1. All build and deploy commands live in `pwsBuildDeploy.sh`. 
 This is a polyglot demo that builds spring-boot 1.x-2.x, node, react and struts 1.x based projects
 1. You will need to have node installed to build the `web-gateway` and `web-gui` demo projects.

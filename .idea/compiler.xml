@@ -15,7 +15,7 @@
       <module name="backend-banking" target="1.8" />
       <module name="backend-banking-legacy" target="1.5" />
       <module name="backend-investments" target="1.8" />
-      <module name="backend-linesofcredit" target="1.8" />
+      <module name="backend-linesofcredit" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
