@@ -9,9 +9,7 @@
     <list default="true" id="13c1b090-674a-4806-bb52-9bd9c89a3869" name="Default" comment="">
       <change beforePath="$USER_HOME$/atomist/projects/Pivotal-Field-Engineering/sdm-code-robots/lib/machine/machine.ts" beforeDir="false" afterPath="$USER_HOME$/atomist/projects/Pivotal-Field-Engineering/sdm-code-robots/lib/machine/machine.ts" afterDir="false" />
       <change beforePath="$USER_HOME$/atomist/projects/Pivotal-Field-Engineering/sdm-code-robots/package-lock.json" beforeDir="false" afterPath="$USER_HOME$/atomist/projects/Pivotal-Field-Engineering/sdm-code-robots/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/variables.yml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/backend-banking/target/" />
     <ignored path="$PROJECT_DIR$/backend-investments/target/" />
@@ -374,7 +372,7 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550457742995" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550458376819" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -687,18 +685,17 @@
       <workItem from="1536064917132" duration="32164000" />
       <workItem from="1536765188357" duration="36917000" />
       <workItem from="1550061165039" duration="34208000" />
-      <workItem from="1550444405958" duration="10886000" />
+      <workItem from="1550444405958" duration="11101000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="196618000" />
+    <option name="totallyTimeSpent" value="196833000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="13" y="61" width="1629" height="953" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" id="Project" order="0" visible="true" weight="0.2879647" />
+      <window_info id="Project" order="0" visible="true" weight="0.2879647" />
       <window_info id="Structure" order="1" weight="0.24889728" />
       <window_info id="Learn" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -715,7 +712,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.329849" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.38559815" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.38559815" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Spring" order="11" weight="0.329849" />
