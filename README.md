@@ -81,5 +81,3 @@ message in Slack. And, you will be able to run the [GraphQL Browser](https://app
 ![Web GUI Dashboard](web-gui-dashboard.png) 
 ### Snyk Dashboard
 ![Snyk Dashboard](snyk-dashboard.png) 
-
-ok

@@ -9,6 +9,7 @@
     <list default="true" id="13c1b090-674a-4806-bb52-9bd9c89a3869" name="Default" comment="">
       <change beforePath="$USER_HOME$/atomist/projects/Pivotal-Field-Engineering/sdm-code-robots/lib/machine/machine.ts" beforeDir="false" afterPath="$USER_HOME$/atomist/projects/Pivotal-Field-Engineering/sdm-code-robots/lib/machine/machine.ts" afterDir="false" />
       <change beforePath="$USER_HOME$/atomist/projects/Pivotal-Field-Engineering/sdm-code-robots/package-lock.json" beforeDir="false" afterPath="$USER_HOME$/atomist/projects/Pivotal-Field-Engineering/sdm-code-robots/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/backend-banking/target/" />
@@ -192,8 +193,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="371">
-                <caret line="84" column="2" selection-start-line="84" selection-start-column="2" selection-end-line="84" selection-end-column="2" />
+              <first_editor relative-caret-position="349">
+                <caret line="83" lean-forward="true" selection-start-line="83" selection-end-line="83" />
               </first_editor>
               <second_editor />
             </state>
@@ -384,7 +385,7 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550489103913" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550489843371" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -697,12 +698,12 @@
       <workItem from="1536064917132" duration="32164000" />
       <workItem from="1536765188357" duration="36917000" />
       <workItem from="1550061165039" duration="34208000" />
-      <workItem from="1550444405958" duration="12752000" />
+      <workItem from="1550444405958" duration="12821000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="198484000" />
+    <option name="totallyTimeSpent" value="198553000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="13" y="61" width="1629" height="953" extended-state="0" />
@@ -1046,8 +1047,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="371">
-            <caret line="84" column="2" selection-start-line="84" selection-start-column="2" selection-end-line="84" selection-end-column="2" />
+          <first_editor relative-caret-position="349">
+            <caret line="83" lean-forward="true" selection-start-line="83" selection-end-line="83" />
           </first_editor>
           <second_editor />
         </state>
