@@ -15,6 +15,7 @@
  */
 
 import { GitHubRepoRef } from "@atomist/automation-client";
+
 import {
     AutoCodeInspection,
     Autofix,
@@ -28,6 +29,8 @@ import {
     SoftwareDeliveryMachine,
     SoftwareDeliveryMachineConfiguration,
     whenPushSatisfies,
+    CommandHandlerRegistration,
+    execPromise,
 } from "@atomist/sdm";
 import {
     createSoftwareDeliveryMachine,
@@ -65,7 +68,7 @@ export function machine(
             configuration,
         });
 
-    const autofix = new Autofix().with(AddLicenseFile);
+    const autofix = new Autofix();
     const inspect = new AutoCodeInspection();
 
     const checkGoals = goals("checks")
@@ -130,6 +133,7 @@ export function machine(
     });
 
     sdm.addCommand(ListBranchDeploys);
+    sdm.addCommand(PushSpringBootUpgrade);
 
     return sdm;
 }
@@ -142,5 +146,15 @@ export const AddLicenseFile: AutofixRegistration = {
     transform: async p => {
         const license = await axios.get("https://www.apache.org/licenses/LICENSE-2.0.txt");
         return p.addFile(LicenseFilename, license.data);
+    },
+};
+
+export const PushSpringBootUpgrade: CommandHandlerRegistration = {
+    name: "PushSpringBootUpgrade",
+    description: "Create git branch and push to github",
+    intent: "push upgrade",
+    listener: async ci => {
+        const result = await execPromise("git", ['push', 'origin', 'boot-upgrade'], { cwd: "../code-robots" });
+        return ci.addressChannels(result.stdout);
     },
 };

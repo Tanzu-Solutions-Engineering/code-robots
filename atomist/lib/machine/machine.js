@@ -36,7 +36,7 @@ function machine(configuration) {
         name: "Spring software delivery machine",
         configuration,
     });
-    const autofix = new sdm_1.Autofix().with(exports.AddLicenseFile);
+    const autofix = new sdm_1.Autofix();
     const inspect = new sdm_1.AutoCodeInspection();
     const checkGoals = sdm_1.goals("checks")
         .plan(autofix)
@@ -84,6 +84,7 @@ function machine(configuration) {
         ],
     });
     sdm.addCommand(sdm_pack_spring_1.ListBranchDeploys);
+    sdm.addCommand(exports.PushSpringBootUpgrade);
     return sdm;
 }
 exports.machine = machine;
@@ -94,6 +95,15 @@ exports.AddLicenseFile = {
     transform: (p) => __awaiter(this, void 0, void 0, function* () {
         const license = yield axios_1.default.get("https://www.apache.org/licenses/LICENSE-2.0.txt");
         return p.addFile(exports.LicenseFilename, license.data);
+    }),
+};
+exports.PushSpringBootUpgrade = {
+    name: "PushSpringBootUpgrade",
+    description: "Create git branch and push to github",
+    intent: "push upgrade",
+    listener: (ci) => __awaiter(this, void 0, void 0, function* () {
+        const result = yield sdm_1.execPromise("git", ['push', 'origin', 'boot-upgrade'], { cwd: "../code-robots" });
+        return ci.addressChannels(result.stdout);
     }),
 };
 //# sourceMappingURL=machine.js.map
