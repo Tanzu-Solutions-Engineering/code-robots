@@ -6,7 +6,7 @@ This is a polyglot demo that builds spring-boot 1.x-2.x, node, react and struts 
 1. You will need to have node installed to build the `web-gateway` and `web-gui` demo projects.
 1. The `manifest.yml` file can be used to do a normal `cf push` of all built demo projects. This demo 
 will work on any PCF environment that has the node, staticfile and java buildpack.
-1. You will need to edit the `base_route` entry in `variables.yml`. This base_route will be 
+1. Create a `variables.yml` file that has a `base_route` entry. This base_route will be 
 pre-pended to each application's route make it easier to create unique routes without using the `random_route` flag. 
 This demo does not use SCS or any other service registry. All microservice endpoints are wired up via environment entries
 in the manifest.

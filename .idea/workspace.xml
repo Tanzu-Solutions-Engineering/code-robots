@@ -10,6 +10,7 @@
       <change beforePath="$USER_HOME$/atomist/projects/Pivotal-Field-Engineering/sdm-code-robots/lib/machine/machine.ts" beforeDir="false" afterPath="$USER_HOME$/atomist/projects/Pivotal-Field-Engineering/sdm-code-robots/lib/machine/machine.ts" afterDir="false" />
       <change beforePath="$USER_HOME$/atomist/projects/Pivotal-Field-Engineering/sdm-code-robots/package-lock.json" beforeDir="false" afterPath="$USER_HOME$/atomist/projects/Pivotal-Field-Engineering/sdm-code-robots/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/backend-banking/target/" />
     <ignored path="$PROJECT_DIR$/backend-investments/target/" />
@@ -125,7 +126,7 @@
           <entry key="java" value="5" />
           <entry key="js" value="14" />
           <entry key="json" value="4" />
-          <entry key="md" value="5" />
+          <entry key="md" value="6" />
           <entry key="mvnw" value="1" />
           <entry key="png" value="6" />
           <entry key="properties" value="1" />
@@ -143,7 +144,7 @@
           <entry key="JAVA" value="5" />
           <entry key="JSON" value="4" />
           <entry key="JavaScript" value="14" />
-          <entry key="Markdown" value="5" />
+          <entry key="Markdown" value="6" />
           <entry key="PLAIN_TEXT" value="3" />
           <entry key="Properties" value="1" />
           <entry key="TypeScript" value="6" />
@@ -157,7 +158,7 @@
           <entry key="java" value="5" />
           <entry key="js" value="50" />
           <entry key="json" value="1" />
-          <entry key="md" value="2288" />
+          <entry key="md" value="2354" />
           <entry key="properties" value="53" />
           <entry key="sh" value="218" />
           <entry key="ts" value="447" />
@@ -171,7 +172,7 @@
           <entry key="JAVA" value="5" />
           <entry key="JSON" value="1" />
           <entry key="JavaScript" value="50" />
-          <entry key="Markdown" value="2288" />
+          <entry key="Markdown" value="2354" />
           <entry key="PLAIN_TEXT" value="15" />
           <entry key="Properties" value="53" />
           <entry key="TypeScript" value="447" />
@@ -188,6 +189,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="169">
+                <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/variables.yml">
           <provider selected="true" editor-type-id="text-editor">
@@ -197,7 +210,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="413">
@@ -293,9 +306,9 @@
         <option value="$PROJECT_DIR$/atomistSetup.sh" />
         <option value="$PROJECT_DIR$/atomist-configure.sh" />
         <option value="$PROJECT_DIR$/atomist-install.sh" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/variables.yml" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -372,7 +385,7 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550458980712" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550459017925" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -685,17 +698,18 @@
       <workItem from="1536064917132" duration="32164000" />
       <workItem from="1536765188357" duration="36917000" />
       <workItem from="1550061165039" duration="34208000" />
-      <workItem from="1550444405958" duration="11648000" />
+      <workItem from="1550444405958" duration="11817000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="197380000" />
+    <option name="totallyTimeSpent" value="197549000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="13" y="61" width="1629" height="953" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" order="0" visible="true" weight="0.2879647" />
+      <window_info active="true" id="Project" order="0" visible="true" weight="0.2879647" />
       <window_info id="Structure" order="1" weight="0.24889728" />
       <window_info id="Learn" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -712,7 +726,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.329849" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.38559815" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.38559815" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Spring" order="11" weight="0.329849" />
@@ -1003,16 +1017,6 @@
     <entry file="file://$PROJECT_DIR$/package-lock.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-108">
-            <caret line="59" column="25" selection-start-line="59" selection-start-column="25" selection-end-line="59" selection-end-column="25" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/atomist/node_modules/@atomist/sdm-pack-spring/lib/spring/transform/tryToUpgradeSpringBootVersion.d.ts">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1026,6 +1030,13 @@
         <state relative-caret-position="-714" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/variables.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
@@ -1033,10 +1044,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="169">
+            <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
