@@ -1,29 +1,33 @@
 {
-  "name": "react-gui",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "bootstrap": "^4.1.3",
-    "jquery": "^2.2.4",
-    "popper.js": "^1.14.4",
-    "react": "^16.4.2",
-    "react-currency-format": "^1.0.0",
-    "react-dom": "^16.4.2",
-    "react-scripts": "^2.1.5",
-    "request": "^2.88.0",
-    "request-promise": "^4.2.2"
-  },
+  "name": "web-gateway",
+  "version": "1.0.0",
+  "description": "bff",
+  "main": "app.js",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
-  "devDependencies": {},
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ]
+  "author": "",
+  "license": "ASF 2.0",
+  "dependencies": {
+    "async": "^2.6.1",
+    "body-parser": "1.17.1",
+    "cors": "^2.8.4",
+    "express": "4.16.0",
+    "gulp": "^4.0.0",
+    "gulp-mocha": "^6.0.0",
+    "gulp-nodemon": "^2.4.1",
+    "immutability-helper": "^2.7.1",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.5",
+    "should": "^13.2.3",
+    "sinon": "^6.1.5",
+    "snyk": "^1.134.2"
+  },
+  "devDependencies": {
+    "gulp-env": "^0.4.0",
+    "supertest": "^3.1.0"
+  },
+  "snyk": true
 }
