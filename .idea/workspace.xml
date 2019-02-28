@@ -8,10 +8,7 @@
   <component name="ChangeListManager">
     <list default="true" id="13c1b090-674a-4806-bb52-9bd9c89a3869" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend-banking/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend-banking/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend-investments/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend-investments/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-gateway/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/web-gateway/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-gui/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/web-gui/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-gateway/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/web-gateway/package.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/backend-banking/target/" />
     <ignored path="$PROJECT_DIR$/backend-investments/target/" />
@@ -126,31 +123,31 @@
           <entry key="html" value="1" />
           <entry key="java" value="6" />
           <entry key="js" value="17" />
-          <entry key="json" value="6" />
+          <entry key="json" value="7" />
           <entry key="md" value="6" />
           <entry key="mvnw" value="1" />
           <entry key="png" value="7" />
           <entry key="properties" value="1" />
-          <entry key="sh" value="12" />
+          <entry key="sh" value="13" />
           <entry key="ts" value="7" />
           <entry key="xml" value="14" />
-          <entry key="yml" value="15" />
+          <entry key="yml" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Bash" value="13" />
+          <entry key="Bash" value="14" />
           <entry key="HTML" value="1" />
           <entry key="Image" value="7" />
           <entry key="JAVA" value="6" />
-          <entry key="JSON" value="6" />
+          <entry key="JSON" value="7" />
           <entry key="JavaScript" value="17" />
           <entry key="Markdown" value="6" />
           <entry key="PLAIN_TEXT" value="3" />
           <entry key="Properties" value="1" />
           <entry key="TypeScript" value="7" />
           <entry key="XML" value="14" />
-          <entry key="YAML" value="15" />
+          <entry key="YAML" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -164,7 +161,7 @@
           <entry key="sh" value="218" />
           <entry key="ts" value="447" />
           <entry key="xml" value="43" />
-          <entry key="yml" value="407" />
+          <entry key="yml" value="417" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -178,7 +175,7 @@
           <entry key="Properties" value="53" />
           <entry key="TypeScript" value="447" />
           <entry key="XML" value="43" />
-          <entry key="YAML" value="407" />
+          <entry key="YAML" value="417" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
@@ -194,70 +191,25 @@
         <entry file="file://$PROJECT_DIR$/pwsBuildDeploy.sh">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="293">
-              <caret line="21" selection-start-line="21" selection-end-line="21" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/manifest.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-494">
-              <caret line="9" column="20" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web-gateway/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backend-banking/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+              <caret line="21" column="49" lean-forward="true" selection-start-line="21" selection-end-line="21" selection-end-column="49" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/backend-investments/pom.xml">
+        <entry file="file://$PROJECT_DIR$/web-gateway/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="55">
-              <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+            <state relative-caret-position="395">
+              <caret line="28" column="1" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web-gateway/app.js">
+        <entry file="file://$PROJECT_DIR$/variables.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-703">
-              <caret line="18" column="95" selection-start-line="18" selection-start-column="95" selection-end-line="18" selection-end-column="95" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web-gui/src/config.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="3" column="36" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web-gui/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="359">
-              <caret line="33" selection-start-line="33" selection-end-line="33" />
+            <state relative-caret-position="22">
+              <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -327,7 +279,6 @@
         <option value="$PROJECT_DIR$/web-gui/sample.json" />
         <option value="$PROJECT_DIR$/web-gui/src/App.css" />
         <option value="$PROJECT_DIR$/web-gui/public/index.html" />
-        <option value="$PROJECT_DIR$/web-gateway/package.json" />
         <option value="$PROJECT_DIR$/web-gui/src/AccountsDashboard.js" />
         <option value="$PROJECT_DIR$/manifest-small.yml" />
         <option value="$PROJECT_DIR$/pwsBuildDeploy.sh" />
@@ -348,11 +299,12 @@
         <option value="$PROJECT_DIR$/atomist-install.sh" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/variables.yml" />
         <option value="$PROJECT_DIR$/web-gui/src/config.js" />
         <option value="$PROJECT_DIR$/web-gui/package.json" />
         <option value="$PROJECT_DIR$/backend-banking/pom.xml" />
         <option value="$PROJECT_DIR$/backend-investments/pom.xml" />
+        <option value="$PROJECT_DIR$/variables.yml" />
+        <option value="$PROJECT_DIR$/web-gateway/package.json" />
       </list>
     </option>
   </component>
@@ -416,14 +368,6 @@
           <expand>
             <path>
               <item name="code-robots" type="b2602c69:ProjectViewProjectNode" />
-              <item name="backend-banking" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="code-robots" type="b2602c69:ProjectViewProjectNode" />
-              <item name="backend-investments" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="code-robots" type="b2602c69:ProjectViewProjectNode" />
               <item name="web-gateway" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -442,7 +386,7 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550666573115" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551360448705" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -755,18 +699,18 @@
       <workItem from="1536064917132" duration="32164000" />
       <workItem from="1536765188357" duration="36917000" />
       <workItem from="1550061165039" duration="34208000" />
-      <workItem from="1550444405958" duration="21619000" />
+      <workItem from="1550444405958" duration="24246000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="207351000" />
+    <option name="totallyTimeSpent" value="209978000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="953" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" id="Project" order="0" visible="true" weight="0.1916972" />
+      <window_info id="Project" order="0" visible="true" weight="0.1916972" />
       <window_info id="Structure" order="1" weight="0.24889728" />
       <window_info id="Learn" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -782,8 +726,8 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.329849" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4981685" visible="true" weight="0.4738676" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.329849" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4981685" weight="0.4738676" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50183153" side_tool="true" weight="0.43554008" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Spring" order="11" weight="0.329849" />
@@ -1055,41 +999,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/variables.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="17" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pwsBuildDeploy.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="21" selection-start-line="21" selection-end-line="21" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manifest.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-494">
-          <caret line="9" column="20" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-gateway/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-gateway/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-703">
-          <caret line="18" column="95" selection-start-line="18" selection-start-column="95" selection-end-line="18" selection-end-column="95" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web-gui/src/config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
@@ -1104,6 +1013,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web-gateway/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-609">
+          <caret line="18" column="95" selection-start-line="18" selection-start-column="95" selection-end-line="18" selection-end-column="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend-investments/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="23" column="40" lean-forward="true" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/backend-banking/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="226">
@@ -1111,10 +1034,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend-investments/pom.xml">
+    <entry file="file://$PROJECT_DIR$/manifest.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="55">
-          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+        <state relative-caret-position="-494">
+          <caret line="9" column="20" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/variables.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pwsBuildDeploy.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="21" column="49" lean-forward="true" selection-start-line="21" selection-end-line="21" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-gateway/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="28" column="1" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
         </state>
       </provider>
     </entry>
