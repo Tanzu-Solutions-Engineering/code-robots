@@ -4,30 +4,26 @@
   "description": "bff",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "snyk-protect": "snyk protect",
-    "prepare": "npm run snyk-protect"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ASF 2.0",
   "dependencies": {
     "async": "^2.6.1",
-    "body-parser": "1.17.1",
+    "body-parser": "1.9.0",
     "cors": "^2.8.4",
-    "express": "4.16.0",
-    "gulp": "^4.0.0",
+    "express": "4.12.4",
+    "gulp": "^3.9.1",
     "gulp-mocha": "^6.0.0",
-    "gulp-nodemon": "^2.4.1",
+    "gulp-nodemon": "^2.2.1",
     "immutability-helper": "^2.7.1",
     "request": "^2.88.0",
     "request-promise-native": "^1.0.5",
     "should": "^13.2.3",
-    "sinon": "^6.1.5",
-    "snyk": "^1.134.2"
+    "sinon": "^6.1.5"
   },
   "devDependencies": {
     "gulp-env": "^0.4.0",
     "supertest": "^3.1.0"
-  },
-  "snyk": true
+  }
 }
