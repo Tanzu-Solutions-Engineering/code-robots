@@ -8,8 +8,12 @@
   <component name="ChangeListManager">
     <list default="true" id="13c1b090-674a-4806-bb52-9bd9c89a3869" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/atomist/lib/machine/machine.js" beforeDir="false" afterPath="$PROJECT_DIR$/atomist/lib/machine/machine.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-banking/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend-banking/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-investments/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend-investments/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web-gateway/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/web-gateway/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web-gateway/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/web-gateway/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-gui/src/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/web-gui/src/config.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/backend-banking/target/" />
     <ignored path="$PROJECT_DIR$/backend-investments/target/" />
@@ -112,9 +116,10 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="2" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -123,46 +128,46 @@
           <entry key="gitignore" value="1" />
           <entry key="html" value="1" />
           <entry key="java" value="6" />
-          <entry key="js" value="17" />
-          <entry key="json" value="7" />
+          <entry key="js" value="20" />
+          <entry key="json" value="10" />
           <entry key="md" value="6" />
           <entry key="mvnw" value="1" />
           <entry key="png" value="7" />
           <entry key="properties" value="1" />
-          <entry key="sh" value="13" />
-          <entry key="ts" value="7" />
-          <entry key="xml" value="14" />
-          <entry key="yml" value="16" />
+          <entry key="sh" value="14" />
+          <entry key="ts" value="8" />
+          <entry key="xml" value="19" />
+          <entry key="yml" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Bash" value="14" />
+          <entry key="Bash" value="15" />
           <entry key="HTML" value="1" />
           <entry key="Image" value="7" />
           <entry key="JAVA" value="6" />
-          <entry key="JSON" value="7" />
-          <entry key="JavaScript" value="17" />
+          <entry key="JSON" value="10" />
+          <entry key="JavaScript" value="20" />
           <entry key="Markdown" value="6" />
           <entry key="PLAIN_TEXT" value="3" />
           <entry key="Properties" value="1" />
-          <entry key="TypeScript" value="7" />
-          <entry key="XML" value="14" />
-          <entry key="YAML" value="16" />
+          <entry key="TypeScript" value="8" />
+          <entry key="XML" value="19" />
+          <entry key="YAML" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gitignore" value="15" />
           <entry key="java" value="5" />
-          <entry key="js" value="52" />
+          <entry key="js" value="53" />
           <entry key="json" value="1" />
           <entry key="md" value="2409" />
           <entry key="properties" value="53" />
           <entry key="sh" value="218" />
           <entry key="ts" value="447" />
-          <entry key="xml" value="43" />
-          <entry key="yml" value="417" />
+          <entry key="xml" value="61" />
+          <entry key="yml" value="419" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -170,18 +175,18 @@
           <entry key="Bash" value="218" />
           <entry key="JAVA" value="5" />
           <entry key="JSON" value="1" />
-          <entry key="JavaScript" value="52" />
+          <entry key="JavaScript" value="53" />
           <entry key="Markdown" value="2409" />
           <entry key="PLAIN_TEXT" value="15" />
           <entry key="Properties" value="53" />
           <entry key="TypeScript" value="447" />
-          <entry key="XML" value="43" />
-          <entry key="YAML" value="417" />
+          <entry key="XML" value="61" />
+          <entry key="YAML" value="419" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
         <counts>
-          <entry key="TypeScriptServerServiceImpl" value="2" />
+          <entry key="TypeScriptServerServiceImpl" value="3" />
         </counts>
       </usages-collector>
     </session>
@@ -191,8 +196,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pwsBuildDeploy.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="21" column="49" selection-start-line="21" selection-end-line="21" selection-end-column="49" />
+            <state relative-caret-position="609">
+              <caret line="21" column="49" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -200,8 +205,35 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web-gateway/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="28" column="1" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+            <state relative-caret-position="841">
+              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/manifest-special.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="145">
+              <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backend-banking/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="398">
+              <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backend-investments/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="293">
+              <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -209,9 +241,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/variables.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+            <state relative-caret-position="58">
+              <caret line="2" column="48" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="48" />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/atomist/lib/machine/machine.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-449">
+              <caret line="72" selection-start-line="72" selection-end-line="72" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#600#659#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/atomist/node_modules/@atomist/sdm-pack-spring/lib/spring/transform/tryToUpgradeSpringBootVersion.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-298" />
           </provider>
         </entry>
       </file>
@@ -300,11 +352,11 @@
         <option value="$PROJECT_DIR$/atomist-install.sh" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/web-gui/src/config.js" />
         <option value="$PROJECT_DIR$/web-gui/package.json" />
+        <option value="$PROJECT_DIR$/variables.yml" />
+        <option value="$PROJECT_DIR$/web-gui/src/config.js" />
         <option value="$PROJECT_DIR$/backend-banking/pom.xml" />
         <option value="$PROJECT_DIR$/backend-investments/pom.xml" />
-        <option value="$PROJECT_DIR$/variables.yml" />
         <option value="$PROJECT_DIR$/web-gateway/package.json" />
       </list>
     </option>
@@ -335,12 +387,11 @@
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
-      <path value="$USER_HOME$/atomist/projects/Pivotal-Field-Engineering/sdm-code-robots/package.json" />
       <path value="$PROJECT_DIR$/web-gateway/package.json" />
       <path value="$PROJECT_DIR$/web-gui/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="y" value="23" />
     <option name="width" value="1680" />
     <option name="height" value="953" />
@@ -363,10 +414,21 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
+            <path>
+              <item name="code-robots" type="b2602c69:ProjectViewProjectNode" />
+              <item name="atomist" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="code-robots" type="b2602c69:ProjectViewProjectNode" />
+              <item name="backend-banking" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="code-robots" type="b2602c69:ProjectViewProjectNode" />
+              <item name="backend-investments" type="462c0819:PsiDirectoryNode" />
+            </path>
             <path>
               <item name="code-robots" type="b2602c69:ProjectViewProjectNode" />
               <item name="web-gateway" type="462c0819:PsiDirectoryNode" />
@@ -375,6 +437,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -387,7 +450,7 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551360949192" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551389296598" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -397,8 +460,8 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
-    <property name="ts.external.directory.path" value="$USER_HOME$/atomist/projects/Pivotal-Field-Engineering/sdm-code-robots/node_modules/typescript/lib" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -701,16 +764,18 @@
       <workItem from="1536765188357" duration="36917000" />
       <workItem from="1550061165039" duration="34208000" />
       <workItem from="1550444405958" duration="24388000" />
+      <workItem from="1551367123197" duration="4615000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="210120000" />
+    <option name="totallyTimeSpent" value="214735000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="953" extended-state="0" />
+    <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" id="Project" order="0" visible="true" weight="0.1916972" />
+      <window_info active="true" id="Project" order="0" visible="true" weight="0.1941392" />
       <window_info id="Structure" order="1" weight="0.24889728" />
       <window_info id="Learn" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -727,7 +792,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.329849" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4981685" visible="true" weight="0.4738676" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4981685" visible="true" weight="0.40612245" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50183153" side_tool="true" weight="0.43554008" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Spring" order="11" weight="0.329849" />
@@ -773,13 +838,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web-gateway/package-lock.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web-gui/src/App.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="990">
@@ -822,13 +880,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web-gui/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web-gui/src/AccountsDashboard.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
@@ -857,9 +908,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="355">
           <caret line="22" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -889,61 +937,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/manifest-special.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/atomist/projects/Pivotal-Field-Engineering/sdm-code-robots/lib/machine/machine.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="347">
           <caret line="160" selection-end-line="160" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#600#672#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/install-atomist.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="36" lean-forward="true" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/atomist-configure.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="30" lean-forward="true" selection-start-line="1" selection-end-line="1" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/atomist-install.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/install-atomist.sh" />
+    <entry file="file://$PROJECT_DIR$/atomist-configure.sh" />
+    <entry file="file://$PROJECT_DIR$/atomist-install.sh" />
     <entry file="file://$PROJECT_DIR$/atomist/node_modules/@atomist/sdm-pack-spring/lib/spring.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/atomist/node_modules/@atomist/sdm-pack-spring/lib/spring/transform/tryToDowngradeSpringBootVersion.d.ts">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/atomist/lib/machine/machine.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1149">
-          <caret line="93" column="33" selection-start-line="93" selection-start-column="33" selection-end-line="93" selection-end-column="33" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#600#659#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/package-lock.json">
       <provider selected="true" editor-type-id="text-editor" />
@@ -951,11 +959,6 @@
     <entry file="file://$PROJECT_DIR$/atomist/node_modules/@atomist/sdm-pack-spring/lib/spring/transform/tryToDowngradeSpringBootVersion.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-721" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/atomist/node_modules/@atomist/sdm-pack-spring/lib/spring/transform/tryToUpgradeSpringBootVersion.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-714" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
@@ -999,13 +1002,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web-gui/src/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="36" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web-gui/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="359">
@@ -1020,20 +1016,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend-investments/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="23" column="40" lean-forward="true" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend-banking/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/manifest.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-494">
@@ -1041,24 +1023,82 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/variables.yml">
+    <entry file="file://$PROJECT_DIR$/web-gateway/package-lock.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+        <state relative-caret-position="381">
+          <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-gui/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-gui/src/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atomist/lib/machine/machine.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-449">
+          <caret line="72" selection-start-line="72" selection-end-line="72" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#600#659#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atomist/node_modules/@atomist/sdm-pack-spring/lib/spring/transform/tryToUpgradeSpringBootVersion.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-298" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pwsBuildDeploy.sh">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="609">
+          <caret line="21" column="49" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/variables.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="2" column="48" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manifest-special.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend-banking/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend-investments/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="293">
-          <caret line="21" column="49" selection-start-line="21" selection-end-line="21" selection-end-column="49" />
+          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web-gateway/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="28" column="1" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+        <state relative-caret-position="841">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
         </state>
       </provider>
     </entry>
