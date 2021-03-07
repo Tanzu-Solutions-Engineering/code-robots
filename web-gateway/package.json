@@ -15,7 +15,7 @@
     "express": "4.12.4",
     "gulp": "^3.9.1",
     "gulp-mocha": "^6.0.0",
-    "gulp-nodemon": "^2.2.1",
+    "gulp-nodemon": "^2.5.0",
     "immutability-helper": "^2.7.1",
     "request": "^2.88.0",
     "request-promise-native": "^1.0.5",
