@@ -9,7 +9,7 @@
   "author": "",
   "license": "ASF 2.0",
   "dependencies": {
-    "async": "^2.6.1",
+    "async": "^2.6.4",
     "body-parser": "1.9.0",
     "cors": "^2.8.4",
     "express": "4.12.4",
